@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neurovi — Case File 05 · Elda Chandra S</title>
+<meta name="description" content="Case study: redesigning the Neurovi radiology results page, one examination at a time.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Neurovi — Case File 05 · Elda Chandra S">
+<meta property="og:description" content="Case study: redesigning the Neurovi radiology results page, one examination at a time.">
+<meta property="og:image" content="images/og-image.jpg">
+<meta name="theme-color" content="#1c1d20">
+<meta name="robots" content="noindex, nofollow, noimageindex">
+<link rel="icon" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&amp;family=JetBrains+Mono:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;background:#1c1d20}
+#app{transform-origin:0 0}
+#app>div{margin:0 auto}
+noscript p{color:#e9e2d2;font:16px/1.5 sans-serif;padding:24px}
+img[src*="elda-photo"]{-webkit-touch-callout:none;-webkit-user-drag:none;user-select:none;-webkit-user-select:none}
+.v-d {}
+
+body{margin:0;font-family:'Archivo',sans-serif;background:#26282c}
+a{color:#1f3a68}a:hover{color:#12264a}
+.nav{color:#d9a441;text-decoration:none}.nav:hover{color:#f0c56a}
+.nav:focus-visible,.toc:focus-visible{outline:3px solid #d9a441;outline-offset:3px}
+.toc{color:#2a1f10;text-decoration:none}.toc:hover{color:#1f3a68;text-decoration:underline}
+
+.v-m {}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<noscript><p>Please enable JavaScript to view this portfolio.</p></noscript>
+<template id="v-d-0">
+
+<div style="position: relative; width: 1440px;  overflow-x: hidden; background: #26282c; color: #2a1f10; display: flex; flex-direction: column; align-items: center;">
+<div style="width: 1200px; height: 72px; flex-shrink: 0; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #3c3f44; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: .1em;">
+<a class="nav" href="index.html" style="min-height: 44px; display: inline-flex; align-items: center; gap: 10px; font-weight: 700;">← BACK TO THE ARCHIVE</a>
+<span style="color: #b9b2a2;">DRAWER 01 / FILE 05 / NEUROVI</span>
+<span style="color: #8f8a7f;">REF-05-NV · 2026</span>
+</div>
+<div style="width: 1200px; margin-top: 40px; display: flex; flex-direction: column;">
+<div style="width: 340px; height: 44px; box-sizing: border-box; padding: 7px 10px 0; background: #b3874d; border-radius: 12px 12px 0 0; display: flex;">
+<span style="flex-grow: 1; height: 28px; display: flex; align-items: center; justify-content: space-between; padding: 0 12px; background: #fdfbf6; border-radius: 4px; box-shadow: 0 1px 2px rgba(60,40,10,.3);"><span style="font-size: 14px; font-weight: 600;">Neurovi / 2026</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #6f6656; letter-spacing: .06em;">FILE 05 / 05</span></span>
+</div>
+<div style="padding: 40px; background: #b3874d; border-radius: 0 14px 14px 14px; box-shadow: 0 30px 60px rgba(0,0,0,.45), inset 0 2px 0 #c89b5f; display: flex; flex-direction: column; gap: 32px;">
+<div style="position: relative; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 48px; align-items: start; padding: 48px 56px 44px; background: #fbfaf5; border: 1px solid #e4dccb; border-radius: 4px; box-shadow: 0 10px 24px rgba(40,25,5,.25);">
+<svg width="30" height="78" viewBox="0 0 26 64" fill="none" stroke="#8a8f94" stroke-width="2.4" stroke-linecap="round" style="position: absolute; left: 48px; top: -26px;"><path d="M8 20 V50 a5 5 0 0 0 10 0 V12 a8 8 0 0 0 -16 0 V46"></path></svg>
+<div style="grid-column: span 7; display: flex; flex-direction: column; gap: 18px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: .14em; color: #6b5a3c;">CASE FILE 05 · MEDICAL TECH · HOSPITAL INFORMATION MANAGEMENT SYSTEM</span>
+<h1 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 68px; line-height: .98; letter-spacing: -.02em; text-transform: uppercase;">NEUROVI</h1>
+<p style="margin: 0; font-size: 22px; line-height: 1.45; color: #43392a; max-width: 660px;">A redesign of the page where radiologists write their expertise.</p>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr) minmax(0, 1fr); gap: 20px; margin-top: 6px; padding-top: 20px; border-top: 1.5px dashed #c9bda3;">
+<div style="display: flex; flex-direction: column; gap: 6px;"><span style="font-family: &quot;JetBrains Mono&quot;, monospace; font-size: 10px; letter-spacing: 0.12em; color: rgb(107, 90, 60)">CLIENT</span><span style="font-size: 15px; font-weight: 600; line-height: 1.35">Tamtech International (Neurovi)</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: .12em; color: #6b5a3c;">MY ROLE</span><span style="font-size: 15px; font-weight: 600; line-height: 1.35;">UI/UX Designer</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: .12em; color: #6b5a3c;">PROJECT DURATION</span><span style="font-size: 15px; font-weight: 600; line-height: 1.35;">1 week · 2026</span></div>
+</div>
+</div>
+<div style="grid-column: span 5; display: flex; flex-direction: column; gap: 14px;">
+<div style="position: absolute; right: 48px; top: -20px; z-index: 1; background: #fbfaf5; transform: rotate(-7deg); padding: 8px 14px; border: 3px solid #b5452b; color: #b5452b; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: .14em; line-height: 1.3; text-align: center; opacity: .85;">CASE FILE<br>DECLASSIFIED</div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #6b5a3c;">PROJECT GOALS</span>
+<div style="display: flex; flex-direction: column; gap: 14px;"><div style="display: flex; align-items: flex-start; gap: 12px; padding: 14px 18px; border: 1.5px solid #b89a62;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; color: #2a1f10; line-height: 1.3;">01</span><span style="font-size: 14px; line-height: 1.45;">Give every examination its own structured input.</span></div><div style="display: flex; align-items: flex-start; gap: 12px; padding: 14px 18px; border: 1.5px solid #b89a62;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; color: #2a1f10; line-height: 1.3;">02</span><span style="font-size: 14px; line-height: 1.45;">Support the radiologist’s reading and reporting efficiently.</span></div><div style="display: flex; align-items: flex-start; gap: 12px; padding: 14px 18px; border: 1.5px solid #b89a62;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700; color: #2a1f10; line-height: 1.3;">03</span><span style="font-size: 14px; line-height: 1.45;">Prepare the page for PACS and SATUSEHAT integration.</span></div></div>
+</div>
+</div>
+</div>
+<div style="position: relative; height: 560px; border: 10px solid #fbfaf5; box-shadow: 0 10px 24px rgba(40,25,5,.3); transform: rotate(-.4deg); ">
+<img src="images/neurovi-hero.jpg" alt="1896 engraving of an early X-ray fluoroscope: one man looks through a viewer at the hand another man rests on the screen box" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%;">
+<span style="position: absolute; left: 10px; bottom: 10px; max-width: calc(100% - 20px); box-sizing: border-box; padding: 5px 8px; background: rgba(251,250,245,.9); font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; line-height: 1.35; letter-spacing: .04em; color: #43392a; text-decoration: none;">SOURCE: Scientific American, 1896</span>
+<span style="position: absolute; left: 60px; top: -18px; width: 110px; height: 30px; background: rgba(240,232,205,.85); transform: rotate(-6deg); box-shadow: 0 1px 2px rgba(0,0,0,.15);"></span>
+<span style="position: absolute; right: 70px; top: -16px; width: 110px; height: 30px; background: rgba(240,232,205,.85); transform: rotate(5deg); box-shadow: 0 1px 2px rgba(0,0,0,.15);"></span>
+</div>
+</div>
+</div>
+<div style="width: 1200px; margin-top: 72px; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 40px; align-items: start;">
+<div style="grid-column: span 3; display: flex; flex-direction: column; gap: 18px; padding: 28px 26px; background: #f4ecd8; border-radius: 3px; box-shadow: 0 10px 20px rgba(0,0,0,.35); border-top: 6px solid #b5452b;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .14em; color: #6b5a3c;">FILE CONTENTS</span>
+<nav style="display: flex; flex-direction: column; font-size: 15px; font-weight: 500;"><a class="toc" href="#s1" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§01</span>The brief</a><a class="toc" href="#s2" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§02</span>The starting point</a><a class="toc" href="#sd1" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§03</span>Dashboard</a><a class="toc" href="#sd2" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§04</span>Imaging</a><a class="toc" href="#sd3" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§05</span>Roles</a><a class="toc" href="#sd4" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§06</span>Expertise</a><a class="toc" href="#sd5" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§07</span>History</a><a class="toc" href="#svs" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§08</span>V1 vs V2</a><a class="toc" href="#sref" style="min-height: 40px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #9c3a22;">§09</span>Reflection</a></nav>
+<div style="display: flex; flex-wrap: wrap; gap: 6px; padding-top: 6px;"><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Web App</span><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Healthcare</span><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Redesign</span><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Design System</span></div>
+<p style="margin: 0; font-size: 13px; line-height: 1.5; color: #43392a;">Internal hospital system, so there is no public link. Screens use dummy patient data.</p>
+</div>
+<article style="grid-column: span 9; display: flex; flex-direction: column; padding: 64px 64px 72px; background: #fbfaf5; border-radius: 3px; box-shadow: 0 16px 36px rgba(0,0,0,.4); font-size: 16px; line-height: 1.65; color: #3a3122;">
+<section id="s1" style="display: flex; flex-direction: column; gap: 18px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§01 — THE BRIEF</span>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">One order, many examinations, one crowded page.</h2>
+<p style="margin: 0;">Neurovi is a hospital information system built by Tamtech International. In its radiology module, radiologists open an order, read the images and write their expertise: the findings and the impression. The existing page (V1) handled a whole order as one block.</p>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px;"><div style="display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.55;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #1f3a68;">MY PART</span><span>I redesigned the page as V2 in 1 week, following the product brief: dashboard, imaging, expertise input and radiology history, for two roles.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.55;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #1f3a68;">SCOPE</span><span>I designed the screens radiographers and radiologists work in every day: the order queue, the imaging view, the result form and the history panel.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.55;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #1f3a68;">THE CONSTRAINT</span><span>The hospital’s service flow stayed the same, so the new page had to fit how the radiology team already works, not ask them to change it.</span></div></div>
+</section>
+
+<section id="s2" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§02 — THE STARTING POINT</span>
+<h2 style="margin: 0; font-size: 38px; line-height: 1.12; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">What V1 looked like.</h2>
+<div style="display: grid; grid-template-columns: 6fr 5fr; gap: 32px; align-items: start;"><figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-v1.jpg" alt="The previous radiology results page: an empty imaging area on the left and all results stacked in one form on the right" style="display: block; width: 100%; height: auto; padding: 8px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 15px; font-weight: 700; color: #2a1f10;">V1, the previous design</span><span style="font-size: 13px; line-height: 1.5;">Patient and doctor names are blurred.</span></figcaption></figure><div style="display: flex; flex-direction: column; gap: 14px;"><p style="margin: 0;">The brief listed what was getting in the doctors’ way:</p><div style="display: flex; flex-direction: column; gap: 10px;"><div style="display: flex; gap: 14px; padding: 14px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-01</span><span style="font-size: 15px; line-height: 1.55;">All results of an order sat in one large input area.</span></div><div style="display: flex; gap: 14px; padding: 14px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-02</span><span style="font-size: 15px; line-height: 1.55;">Imaging and expertise were mixed on the same screen, and doctors had to find the matching image themselves.</span></div><div style="display: flex; gap: 14px; padding: 14px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-03</span><span style="font-size: 15px; line-height: 1.55;">With more than one radiology item, it was hard to tell the examinations apart.</span></div><div style="display: flex; gap: 14px; padding: 14px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-04</span><span style="font-size: 15px; line-height: 1.55;">There was no way to compare with previous results.</span></div><div style="display: flex; gap: 14px; padding: 14px 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-05</span><span style="font-size: 15px; line-height: 1.55;">The page closed as soon as the doctor pressed Save.</span></div></div></div></div>
+</section>
+<section id="sd1" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§03 — DECISION 1/5 · DASHBOARD</span>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Sort the queue by the stage of the work.</h2>
+<p style="margin: 0;">Tabs follow the real stages of an order, from Belum Dikonfirmasi to Menunggu Expertise and Selesai, each with a count. Every row shows the examination, its priority (Routine, CITO, STAT) and its status, so radiologists find their queue as soon as they open the module.&nbsp;</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Information Architecture</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Error Prevention</span></div>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-dashboard.jpg" alt="Radiology dashboard on the Menunggu Expertise tab, listing examinations with priority and status" style="display: block; width: 100%; height: auto; padding: 10px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">The “Menunggu Expertise” tab: the radiologist’s queue.</figcaption></figure>
+</section>
+
+<section id="sd2" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§04 — DECISION 2/5 · IMAGING</span>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Pair a missing image with a way forward.</h2>
+<p style="margin: 0;">The radiographer checks PACS from the order. If the images are found, they appear in a large preview with a counter. If not, a banner says so and manual upload stays open, so the examination isn’t stuck waiting on an integration.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Error Prevention</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">User Control</span></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start;"><figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-pacs.jpg" alt="Imaging found in PACS, shown in a large preview" style="display: block; width: 100%; height: auto; padding: 10px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Found in PACS: preview, fullscreen, delete.</figcaption></figure><figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-nopacs.jpg" alt="Banner saying the imaging is not in PACS yet, with manual upload available" style="display: block; width: 100%; height: auto; padding: 10px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Not in PACS yet: manual upload as fallback.</figcaption></figure></div>
+</section>
+
+<section id="sd3" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§05 — DECISION 3/5 · ROLES</span>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Lock what the role shouldn’t touch.</h2>
+<p style="margin: 0;">Radiographers and doctors work on the same page with different rights. For the radiographer, findings and impression stay locked; for doctors, edit rights follow the radiologist assigned to the examination. One page serves both roles without one overwriting the other’s work.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Error Prevention</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Contextual Design</span></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px;"><div style="display: flex; flex-direction: column; gap: 8px; padding: 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.5;"><span style="font-size: 16px; font-weight: 700; color: #2a1f10;">Radiographer view</span><span>Checks PACS or uploads the images. Findings and impression are locked.</span></div><div style="display: flex; flex-direction: column; gap: 8px; padding: 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.5;"><span style="font-size: 16px; font-weight: 700; color: #2a1f10;">Doctor view</span><span>Reads the images and writes findings and impression. Edit rights follow the assigned radiologist, who marks the examination as done.</span></div></div>
+</section>
+
+<section id="sd4" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§06 — DECISION 4/5 · EXPERTISE</span>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">One examination, one result, one finish button.</h2>
+<p style="margin: 0;">Each examination keeps its own image, assigned radiologist and two separate, required fields: Hasil Pemeriksaan (findings) and Kesan (impression). “Tandai Selesai” finishes that examination alone; the page stays open with a confirmation and the status moves from Diproses to Selesai, so the doctor can still review what was written.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Clarity</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Microinteractions</span></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start;"><figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-filled.jpg" alt="Doctor view with findings and impression filled in, status Diproses" style="display: block; width: 100%; height: auto; padding: 10px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Before finishing · status: Diproses.</figcaption></figure><figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-done.jpg" alt="The same examination after Tandai Selesai, with a confirmation toast and status Selesai" style="display: block; width: 100%; height: auto; padding: 10px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Marked as done · page stays open · Selesai.</figcaption></figure></div>
+</section>
+
+<section id="sd5" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§07 — DECISION 5/5 · HISTORY</span>
+<h2 style="margin: 0; font-size: 36px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Bring past results next to the current one.</h2>
+<p style="margin: 0;">V1 had no way to compare results. Now a side panel opens the patient’s radiology history without leaving the page. The doctor picks an earlier examination by date and sees its images and expertise beside the current input.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Contextual Design</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">User Control</span></div>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-compare.jpg" alt="Riwayat Radiologi side panel showing an earlier examination next to the current one" style="display: block; width: 100%; height: auto; padding: 10px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"></figure>
+</section>
+
+<section id="svs" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§08 — V1 VS V2</span>
+<h2 style="margin: 0; font-size: 38px; line-height: 1.12; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">What changed for the doctor.</h2>
+<div style="border: 1px solid #d8ccb2; font-size: 14px; line-height: 1.5;"><div style="display: grid; grid-template-columns: 130px 1fr 1fr; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .1em; color: #6b5a3c;"><span style="padding: 12px 14px; background: #f3ecdb;">ASPECT</span><span style="padding: 12px 14px; background: #f3ecdb; border-left: 1px solid #d8ccb2;">V1 (BEFORE)</span><span style="padding: 12px 14px; background: #e6eef6; color: #1f3a68; border-left: 1px solid #d8ccb2;">V2 (AFTER)</span></div><div style="display: grid; grid-template-columns: 130px 1fr 1fr; border-top: 1px solid #d8ccb2;"><span style="padding: 12px 14px; font-weight: 700; color: #2a1f10;">Structure</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2;">All examinations in one input area.</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2; background: #f3f7fb; color: #2a1f10;">Each examination handled on its own, with its own radiologist and status.</span></div><div style="display: grid; grid-template-columns: 130px 1fr 1fr; border-top: 1px solid #d8ccb2;"><span style="padding: 12px 14px; font-weight: 700; color: #2a1f10;">Imaging</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2;">Uploaded manually; the doctor looks for the right image.</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2; background: #f3f7fb; color: #2a1f10;">Checked from PACS, with manual upload as a fallback, shown next to the examination it belongs to.</span></div><div style="display: grid; grid-template-columns: 130px 1fr 1fr; border-top: 1px solid #d8ccb2;"><span style="padding: 12px 14px; font-weight: 700; color: #2a1f10;">Comparison</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2;">Not available.</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2; background: #f3f7fb; color: #2a1f10;">Past results of the same examination open in a side panel.</span></div><div style="display: grid; grid-template-columns: 130px 1fr 1fr; border-top: 1px solid #d8ccb2;"><span style="padding: 12px 14px; font-weight: 700; color: #2a1f10;">After saving</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2;">The page closes.</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2; background: #f3f7fb; color: #2a1f10;">The page stays open for review, with a confirmation toast.</span></div><div style="display: grid; grid-template-columns: 130px 1fr 1fr; border-top: 1px solid #d8ccb2;"><span style="padding: 12px 14px; font-weight: 700; color: #2a1f10;">Finishing</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2;">No separate finish per examination.</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2; background: #f3f7fb; color: #2a1f10;">“Tandai Selesai” on each examination; its status changes to Selesai.</span></div><div style="display: grid; grid-template-columns: 130px 1fr 1fr; border-top: 1px solid #d8ccb2;"><span style="padding: 12px 14px; font-weight: 700; color: #2a1f10;">Data</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2;">Results not separated per examination.</span><span style="padding: 12px 14px; border-left: 1px solid #d8ccb2; background: #f3f7fb; color: #2a1f10;">Findings and impression kept apart, ready for SATUSEHAT’s Observation and DiagnosticReport.</span></div></div>
+</section>
+<section id="sref" style="display: flex; flex-direction: column; gap: 18px; margin-top: 56px; padding-top: 56px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§09 — REFLECTION</span>
+<blockquote style="margin: 0; padding: 24px 28px; background: #f3ecdb; border: 1px solid #d8ccb2; font-size: 22px; line-height: 1.4; font-weight: 600; color: #2a1f10;">“In a clinical tool, small details carry weight: the right image next to the right examination, a field that is locked for the wrong role, a status you can trust.”</blockquote>
+<p style="margin: 0;">The core of this redesign was splitting one crowded page into clear pieces that match how the radiology team already works.</p>
+</section>
+</article>
+</div>
+<div style="width: 1200px; margin-top: 72px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+<a class="nav" href="index.html" style="min-height: 120px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 8px; padding: 24px 28px; background: #2f3236; border: 1px solid #45494f; border-radius: 4px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .14em; color: #b9b2a2;">RETURN</span>
+<span style="font-size: 24px; font-weight: 700; color: #f4efe2;">← Back to the archive</span>
+</a>
+<a class="nav" href="chickin-app.html" style="min-height: 120px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; padding: 24px 28px; background: #c89b5f; border-top: 3px solid #dcb67d; border-radius: 4px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .14em; color: #3d2c12;">NEXT FILE 04 / 05</span>
+<span style="font-size: 24px; font-weight: 700; color: #2a1f10;">Chickin App / 2025 →</span>
+</a>
+</div>
+<div style="width: 1200px; margin-top: auto; padding: 40px 0 48px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #3c3f44; font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: .1em; color: #b9b2a2;">
+<span>© 2026 ELDA CHANDRA S · PRODUCT DESIGNER (UI/UX)</span>
+<a class="nav" href="index.html" style="min-height: 44px; display: inline-flex; align-items: center;">BACK TO THE ARCHIVE ↑</a>
+</div>
+</div>
+</template>
+<template id="v-m-0">
+
+<div style="position: relative; width: 390px;  overflow-x: hidden;  background: #26282c; color: #2a1f10;">
+<div style="display: flex; flex-direction: column; align-items: center; padding: 0 16px 32px; box-sizing: border-box; width: 390px;">
+<div style="width: 100%; height: 56px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #3c3f44; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .08em;">
+<a class="nav" href="index.html" style="min-height: 44px; display: inline-flex; align-items: center; font-weight: 700;">← THE ARCHIVE</a>
+<span style="color: #8f8a7f;">REF-05-NV</span>
+</div>
+<div style="width: 100%; margin-top: 24px; display: flex; flex-direction: column;">
+<div style="width: 220px; height: 38px; box-sizing: border-box; padding: 6px 8px 0; background: #b3874d; border-radius: 10px 10px 0 0; display: flex;">
+<span style="flex-grow: 1; height: 24px; display: flex; align-items: center; justify-content: space-between; padding: 0 8px; background: #fdfbf6; border-radius: 4px; box-shadow: 0 1px 2px rgba(60,40,10,.3);"><span style="font-size: 12px; font-weight: 600;">Neurovi / 2026</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 9px; color: #6f6656;">05/05</span></span>
+</div>
+<div style="padding: 16px; background: #b3874d; border-radius: 0 12px 12px 12px; box-shadow: 0 20px 40px rgba(0,0,0,.45), inset 0 2px 0 #c89b5f; display: flex; flex-direction: column; gap: 18px;">
+<div style="position: relative; display: flex; flex-direction: column; gap: 14px; padding: 28px 20px 22px; background: #fbfaf5; border: 1px solid #e4dccb; border-radius: 3px; box-shadow: 0 8px 18px rgba(40,25,5,.25);">
+<svg width="20" height="52" viewBox="0 0 26 64" fill="none" stroke="#8a8f94" stroke-width="2.6" stroke-linecap="round" style="position: absolute; left: 22px; top: -18px;"><path d="M8 20 V50 a5 5 0 0 0 10 0 V12 a8 8 0 0 0 -16 0 V46"></path></svg>
+<div style="position: absolute; right: 14px; top: 16px; transform: rotate(-7deg); padding: 4px 8px; border: 2px solid #b5452b; color: #b5452b; border-radius: 3px; font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 700; letter-spacing: .12em; line-height: 1.3; text-align: center; opacity: .85;">CASE FILE<br>DECLASSIFIED</div>
+<span style="padding-right: 104px; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: .12em; line-height: 1.5; color: #6b5a3c;">CASE FILE 05 · MEDICAL TECH · HOSPITAL INFORMATION MANAGEMENT SYSTEM</span>
+<h1 style="margin: 0; font-weight: 800; font-size: 38px; line-height: 1; letter-spacing: -.02em; text-transform: uppercase;">NEUROVI</h1>
+<p style="margin: 0; font-size: 16px; line-height: 1.5; color: #43392a;">A redesign of the page where radiologists write their expertise.</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; padding-top: 16px; border-top: 1.5px dashed #c9bda3;">
+<div style="display: flex; flex-direction: column; gap: 4px;"><span style="font-family: &quot;JetBrains Mono&quot;, monospace; font-size: 9px; letter-spacing: 0.12em; color: rgb(107, 90, 60)">CLIENT</span><span style="font-size: 14px; font-weight: 600">Tamtech International (Neurovi)</span></div>
+<div style="display: flex; flex-direction: column; gap: 4px;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: .12em; color: #6b5a3c;">PROJECT DURATION</span><span style="font-size: 14px; font-weight: 600;">1 week · 2026</span></div>
+<div style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 4px;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: .12em; color: #6b5a3c;">MY ROLE</span><span style="font-size: 14px; font-weight: 600;">UI/UX Designer</span></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px; padding-top: 4px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 9px; font-weight: 700; letter-spacing: .14em; color: #6b5a3c;">PROJECT GOALS</span>
+<div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px; border: 1.5px solid #b89a62;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: #2a1f10; line-height: 1.3;">01</span><span style="font-size: 13px; line-height: 1.45;">Give every examination its own structured input.</span></div><div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px; border: 1.5px solid #b89a62;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: #2a1f10; line-height: 1.3;">02</span><span style="font-size: 13px; line-height: 1.45;">Support the radiologist’s reading and reporting efficiently.</span></div><div style="display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px; border: 1.5px solid #b89a62;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: #2a1f10; line-height: 1.3;">03</span><span style="font-size: 13px; line-height: 1.45;">Prepare the page for PACS and SATUSEHAT integration.</span></div>
+</div>
+</div>
+<div style="position: relative; height: 210px; border: 6px solid #fbfaf5; box-shadow: 0 8px 18px rgba(40,25,5,.3); transform: rotate(-.6deg); ">
+<img src="images/neurovi-hero.jpg" alt="1896 engraving of an early X-ray fluoroscope: one man looks through a viewer at the hand another man rests on the screen box" style="display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%;">
+<span style="position: absolute; left: 6px; bottom: 6px; max-width: calc(100% - 12px); box-sizing: border-box; padding: 3px 6px; background: rgba(251,250,245,.9); font-family: 'JetBrains Mono', monospace; font-size: 8.5px; font-weight: 600; line-height: 1.35; letter-spacing: .04em; color: #43392a; text-decoration: none;">SOURCE: Scientific American, 1896</span>
+<span style="position: absolute; left: 24px; top: -12px; width: 64px; height: 20px; background: rgba(240,232,205,.85); transform: rotate(-6deg);"></span>
+<span style="position: absolute; right: 28px; top: -10px; width: 64px; height: 20px; background: rgba(240,232,205,.85); transform: rotate(5deg);"></span>
+</div>
+</div>
+</div>
+<div style="width: 100%; margin-top: 28px; display: flex; flex-direction: column; gap: 10px; padding: 18px 16px; box-sizing: border-box; background: #f4ecd8; border-top: 5px solid #b5452b; border-radius: 3px; box-shadow: 0 8px 16px rgba(0,0,0,.35);">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #6b5a3c;">FILE CONTENTS</span>
+<nav style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 12px; font-size: 14px; font-weight: 500;"><a class="toc" href="#m1" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§01</span>Brief</a><a class="toc" href="#m2" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§02</span>Start</a><a class="toc" href="#md1" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§03</span>Dashboard</a><a class="toc" href="#md2" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§04</span>Imaging</a><a class="toc" href="#md3" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§05</span>Roles</a><a class="toc" href="#md4" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§06</span>Expertise</a><a class="toc" href="#md5" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§07</span>History</a><a class="toc" href="#mvs" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§08</span>V1 vs V2</a><a class="toc" href="#mref" style="min-height: 44px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e0d4b8;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; color: #9c3a22;">§09</span>Reflection</a></nav>
+<div style="display: flex; flex-wrap: wrap; gap: 6px; padding-top: 6px;"><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Web App</span><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Healthcare</span><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Redesign</span><span style="padding: 3px 8px; background: #fbfaf5; border: 1px solid #d8ccb2; font-family: 'JetBrains Mono', monospace; font-size: 11px;">Design System</span></div>
+<p style="margin: 0; font-size: 13px; line-height: 1.5; color: #43392a;">Internal hospital system, so there is no public link. Screens use dummy patient data.</p>
+</div>
+<article style="width: 100%; margin-top: 20px; box-sizing: border-box; display: flex; flex-direction: column; padding: 32px 20px 36px; background: #fbfaf5; border-radius: 3px; box-shadow: 0 12px 28px rgba(0,0,0,.4); font-size: 15px; line-height: 1.65; color: #3a3122;">
+<section id="m1" style="display: flex; flex-direction: column; gap: 14px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§01 — THE BRIEF</span>
+<h2 style="margin: 0; font-size: 25px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">One order, many examinations, one crowded page.</h2>
+<p style="margin: 0;">Neurovi is a hospital information system built by Tamtech International. In its radiology module, radiologists open an order, read the images and write their expertise: the findings and the impression. The existing page (V1) handled a whole order as one block.</p>
+<div style="display: flex; flex-direction: column; gap: 10px;"><div style="display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.55;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #1f3a68;">MY PART</span><span>I redesigned the page as V2 in 1 week, following the product brief: dashboard, imaging, expertise input and radiology history, for two roles.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.55;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #1f3a68;">SCOPE</span><span>I designed the screens radiographers and radiologists work in every day: the order queue, the imaging view, the result form and the history panel.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.55;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .12em; color: #1f3a68;">THE CONSTRAINT</span><span>The hospital’s service flow stayed the same, so the new page had to fit how the radiology team already works, not ask them to change it.</span></div></div>
+</section>
+
+<section id="m2" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§02 — THE STARTING POINT</span>
+<h2 style="margin: 0; font-size: 26px; line-height: 1.12; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">What V1 looked like.</h2>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-v1.jpg" alt="The previous radiology results page: an empty imaging area on the left and all results stacked in one form on the right" style="display: block; width: 100%; height: auto; padding: 6px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="display: flex; flex-direction: column; gap: 2px;"><span style="font-size: 14px; font-weight: 700; color: #2a1f10;">V1, the previous design</span><span style="font-size: 13px; line-height: 1.5;">Patient and doctor names are blurred.</span></figcaption></figure>
+<p style="margin: 0;">The brief listed what was getting in the doctors’ way:</p>
+<div style="display: flex; flex-direction: column; gap: 10px;"><div style="display: flex; gap: 14px; padding: 12px 14px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-01</span><span style="font-size: 14px; line-height: 1.55;">All results of an order sat in one large input area.</span></div><div style="display: flex; gap: 14px; padding: 12px 14px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-02</span><span style="font-size: 14px; line-height: 1.55;">Imaging and expertise were mixed on the same screen, and doctors had to find the matching image themselves.</span></div><div style="display: flex; gap: 14px; padding: 12px 14px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-03</span><span style="font-size: 14px; line-height: 1.55;">With more than one radiology item, it was hard to tell the examinations apart.</span></div><div style="display: flex; gap: 14px; padding: 12px 14px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-04</span><span style="font-size: 14px; line-height: 1.55;">There was no way to compare with previous results.</span></div><div style="display: flex; gap: 14px; padding: 12px 14px; background: #fffdf7; border: 1px solid #d8ccb2; border-left: 4px solid #b5452b;"><span style="flex-shrink: 0; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 700; color: #b5452b; padding-top: 3px;">P-05</span><span style="font-size: 14px; line-height: 1.55;">The page closed as soon as the doctor pressed Save.</span></div></div>
+</section>
+<section id="md1" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§03 — DECISION 1/5 · DASHBOARD</span>
+<h2 style="margin: 0; font-size: 25px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Sort the queue by the stage of the work.</h2>
+<p style="margin: 0;">Tabs follow the real stages of an order, from Belum Dikonfirmasi to Menunggu Expertise and Selesai, each with a count. Every row shows the examination, its priority (Routine, CITO, STAT) and its status, so radiologists find their queue as soon as they open the module.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Information Architecture</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Error Prevention</span></div>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-dashboard.jpg" alt="Radiology dashboard on the Menunggu Expertise tab, listing examinations with priority and status" style="display: block; width: 100%; height: auto; padding: 6px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">The “Menunggu Expertise” tab: the radiologist’s queue.</figcaption></figure>
+</section>
+
+<section id="md2" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§04 — DECISION 2/5 · IMAGING</span>
+<h2 style="margin: 0; font-size: 25px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Pair a missing image with a way forward.</h2>
+<p style="margin: 0;">The radiographer checks PACS from the order. If the images are found, they appear in a large preview with a counter. If not, a banner says so and manual upload stays open, so the examination isn’t stuck waiting on an integration.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Error Prevention</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">User Control</span></div>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-pacs.jpg" alt="Imaging found in PACS, shown in a large preview" style="display: block; width: 100%; height: auto; padding: 6px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Found in PACS: preview, fullscreen, delete.</figcaption></figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-nopacs.jpg" alt="Banner saying the imaging is not in PACS yet, with manual upload available" style="display: block; width: 100%; height: auto; padding: 6px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Not in PACS yet: manual upload as fallback.</figcaption></figure>
+</section>
+
+<section id="md3" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§05 — DECISION 3/5 · ROLES</span>
+<h2 style="margin: 0; font-size: 25px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Lock what the role shouldn’t touch.</h2>
+<p style="margin: 0;">Radiographers and doctors work on the same page with different rights. For the radiographer, findings and impression stay locked; for doctors, edit rights follow the radiologist assigned to the examination. One page serves both roles without one overwriting the other’s work.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Error Prevention</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Contextual Design</span></div>
+<div style="display: flex; flex-direction: column; gap: 14px;"><div style="display: flex; flex-direction: column; gap: 8px; padding: 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.5;"><span style="font-size: 16px; font-weight: 700; color: #2a1f10;">Radiographer view</span><span>Checks PACS or uploads the images. Findings and impression are locked.</span></div><div style="display: flex; flex-direction: column; gap: 8px; padding: 18px; background: #fffdf7; border: 1px solid #d8ccb2; border-top: 4px solid #1f3a68; font-size: 14px; line-height: 1.5;"><span style="font-size: 16px; font-weight: 700; color: #2a1f10;">Doctor view</span><span>Reads the images and writes findings and impression. Edit rights follow the assigned radiologist, who marks the examination as done.</span></div></div>
+</section>
+
+<section id="md4" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§06 — DECISION 4/5 · EXPERTISE</span>
+<h2 style="margin: 0; font-size: 25px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">One examination, one result, one finish button.</h2>
+<p style="margin: 0;">Each examination keeps its own image, assigned radiologist and two separate, required fields: Hasil Pemeriksaan (findings) and Kesan (impression). “Tandai Selesai” finishes that examination alone; the page stays open with a confirmation and the status moves from Diproses to Selesai, so the doctor can still review what was written.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Clarity</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Microinteractions</span></div>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-filled.jpg" alt="Doctor view with findings and impression filled in, status Diproses" style="display: block; width: 100%; height: auto; padding: 6px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Before finishing · status: Diproses.</figcaption></figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-done.jpg" alt="The same examination after Tandai Selesai, with a confirmation toast and status Selesai" style="display: block; width: 100%; height: auto; padding: 6px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"><figcaption style="font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.5; color: #6b5a3c;">Marked as done · page stays open · Selesai.</figcaption></figure>
+</section>
+
+<section id="md5" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§07 — DECISION 5/5 · HISTORY</span>
+<h2 style="margin: 0; font-size: 25px; line-height: 1.14; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">Bring past results next to the current one.</h2>
+<p style="margin: 0;">V1 had no way to compare results. Now a side panel opens the patient’s radiology history without leaving the page. The doctor picks an earlier examination by date and sees its images and expertise beside the current input.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px;"><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">Contextual Design</span><span style="padding: 3px 10px; background: #f3ecdb; border: 1px solid #d8ccb2; border-radius: 999px; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; color: #6b5a3c;">User Control</span></div>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0;"><img src="images/neurovi-compare.jpg" alt="Riwayat Radiologi side panel showing an earlier examination next to the current one" style="display: block; width: 100%; height: auto; padding: 6px; background: #ffffff; border: 1px solid #e4dccb; box-sizing: border-box; box-shadow: 0 6px 16px rgba(40,25,5,.12);"></figure>
+</section>
+
+<section id="mvs" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§08 — V1 VS V2</span>
+<h2 style="margin: 0; font-size: 26px; line-height: 1.12; letter-spacing: -.015em; font-weight: 800; color: #2a1f10;">What changed for the doctor.</h2>
+<div style="border: 1px solid #d8ccb2; font-size: 14px; line-height: 1.5;"><div style="display: flex; flex-direction: column; gap: 6px; padding: 12px 14px;"><span style="font-weight: 700; color: #2a1f10;">Structure</span><span><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #6b5a3c;">V1 · </span>All examinations in one input area.</span><span style="padding: 8px 10px; background: #f3f7fb;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #1f3a68;">V2 · </span>Each examination handled on its own, with its own radiologist and status.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-top: 1px solid #d8ccb2;"><span style="font-weight: 700; color: #2a1f10;">Imaging</span><span><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #6b5a3c;">V1 · </span>Uploaded manually; the doctor looks for the right image.</span><span style="padding: 8px 10px; background: #f3f7fb;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #1f3a68;">V2 · </span>Checked from PACS, with manual upload as a fallback, shown next to the examination it belongs to.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-top: 1px solid #d8ccb2;"><span style="font-weight: 700; color: #2a1f10;">Comparison</span><span><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #6b5a3c;">V1 · </span>Not available.</span><span style="padding: 8px 10px; background: #f3f7fb;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #1f3a68;">V2 · </span>Past results of the same examination open in a side panel.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-top: 1px solid #d8ccb2;"><span style="font-weight: 700; color: #2a1f10;">After saving</span><span><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #6b5a3c;">V1 · </span>The page closes.</span><span style="padding: 8px 10px; background: #f3f7fb;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #1f3a68;">V2 · </span>The page stays open for review, with a confirmation toast.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-top: 1px solid #d8ccb2;"><span style="font-weight: 700; color: #2a1f10;">Finishing</span><span><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #6b5a3c;">V1 · </span>No separate finish per examination.</span><span style="padding: 8px 10px; background: #f3f7fb;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #1f3a68;">V2 · </span>“Tandai Selesai” on each examination; its status changes to Selesai.</span></div><div style="display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border-top: 1px solid #d8ccb2;"><span style="font-weight: 700; color: #2a1f10;">Data</span><span><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #6b5a3c;">V1 · </span>Results not separated per examination.</span><span style="padding: 8px 10px; background: #f3f7fb;"><span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: #1f3a68;">V2 · </span>Findings and impression kept apart, ready for SATUSEHAT’s Observation and DiagnosticReport.</span></div></div>
+</section>
+<section id="mref" style="display: flex; flex-direction: column; gap: 14px; margin-top: 36px; padding-top: 36px; border-top: 1.5px dashed #c9bda3;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #9c3a22;">§09 — REFLECTION</span>
+<blockquote style="margin: 0; padding: 18px 18px; background: #f3ecdb; border: 1px solid #d8ccb2; font-size: 18px; line-height: 1.4; font-weight: 600; color: #2a1f10;">“In a clinical tool, small details carry weight: the right image next to the right examination, a field that is locked for the wrong role, a status you can trust.”</blockquote>
+<p style="margin: 0;">The core of this redesign was splitting one crowded page into clear pieces that match how the radiology team already works.</p>
+</section>
+</article>
+<div style="width: 100%; margin-top: 24px; display: flex; flex-direction: column; gap: 12px;">
+<a class="nav" href="chickin-app.html" style="min-height: 88px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: flex-end; gap: 6px; padding: 16px 20px; background: #c89b5f; border-top: 3px solid #dcb67d; border-radius: 4px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: .14em; color: #3d2c12;">NEXT FILE 04 / 05</span>
+<span style="font-size: 19px; font-weight: 700; color: #2a1f10;">Chickin App / 2025 →</span>
+</a>
+<a class="nav" href="index.html" style="min-height: 72px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 14px 20px; background: #2f3236; border: 1px solid #45494f; border-radius: 4px;">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: .14em; color: #b9b2a2;">RETURN</span>
+<span style="font-size: 17px; font-weight: 700; color: #f4efe2;">← Back to the archive</span>
+</a>
+</div>
+<div style="width: 100%; margin-top: 28px; padding-top: 20px; display: flex; flex-direction: column; align-items: center; gap: 4px; border-top: 1px solid #3c3f44; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .08em; color: #b9b2a2; text-align: center;">
+<span>© 2026 ELDA CHANDRA S · PRODUCT DESIGNER (UI/UX)</span>
+<a class="nav" href="index.html" style="min-height: 44px; display: inline-flex; align-items: center;">BACK TO THE ARCHIVE ↑</a>
+</div>
+</div>
+</div>
+</template>
+<script>(function () {
+  var app = document.getElementById('app');
+  var mode = null, cur = null;
+  function pick() { return window.innerWidth < 900 ? 'm' : 'd'; }
+  function tpl(m, i) { var t = document.getElementById('v-' + m + '-' + i); return t ? t.content.firstElementChild : null; }
+  function scale() {
+    var w = mode === 'd' ? 1440 : 390;
+    var s = Math.min(window.innerWidth / w, mode === 'd' ? 1 : 1.6);
+    app.style.zoom = s;
+  }
+  function jump() {
+    if (!location.hash) return;
+    var el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (el) el.scrollIntoView();
+  }
+  function mount() {
+    mode = pick(); cur = null;
+    app.innerHTML = '';
+    app.appendChild(tpl(mode, 0).cloneNode(true));
+    scale();
+    jump();
+    if (typeof spy === 'function') spy();
+  }
+  // update the live DOM to match a pre-rendered state, keeping elements so CSS transitions run
+  function morph(a, b) {
+    if (a.nodeType === 3) { if (a.nodeValue !== b.nodeValue) a.nodeValue = b.nodeValue; return; }
+    if (a.nodeType !== 1) return;
+    var i, at;
+    for (i = a.attributes.length - 1; i >= 0; i--) { at = a.attributes[i].name; if (!b.hasAttribute(at)) a.removeAttribute(at); }
+    for (i = 0; i < b.attributes.length; i++) { at = b.attributes[i]; if (a.getAttribute(at.name) !== at.value) a.setAttribute(at.name, at.value); }
+    var ac = a.childNodes, bc = b.childNodes;
+    if (ac.length !== bc.length) { a.innerHTML = b.innerHTML; return; }
+    for (i = 0; i < ac.length; i++) {
+      if (ac[i].nodeType !== bc[i].nodeType || ac[i].nodeName !== bc[i].nodeName) { a.replaceChild(bc[i].cloneNode(true), ac[i]); }
+      else morph(ac[i], bc[i]);
+    }
+  }
+  function setCur(k) {
+    if (k === cur) return;
+    var n = tpl(mode, k == null ? 0 : k + 1);
+    if (!n) return;
+    cur = k;
+    morph(app.firstElementChild, n);
+    spy();
+  }
+  function idxOf(el, sel) {
+    var t = el && el.closest ? el.closest(sel) : null;
+    if (!t) return -1;
+    return Array.prototype.indexOf.call(app.querySelectorAll(sel), t);
+  }
+  // the whole folder reacts (desktop hover), like on the canvas; falls back to the tab
+  function tabIndex(el) {
+    var j = idxOf(el, '[data-row]');
+    return j >= 0 ? j : idxOf(el, '[data-tab]');
+  }
+  app.addEventListener('mouseover', function (e) {
+    if (mode !== 'd') return;
+    var j = tabIndex(e.target);
+    if (j >= 0) { setCur(j); return; }
+    var zone = e.target.closest && e.target.closest('[data-leave]');
+    if (!zone && cur != null) setCur(null);
+  });
+  app.addEventListener('focusin', function (e) { if (mode === 'd') { var j = tabIndex(e.target); if (j >= 0) setCur(j); } });
+  app.addEventListener('click', function (e) {
+    var j = tabIndex(e.target);
+    if (j < 0) return;
+    if (mode === 'd') setCur(j); else setCur(cur === j ? null : j);
+  });
+  document.addEventListener('mouseleave', function () { if (mode === 'd' && cur != null) setCur(null); });
+  // profile photo: no context menu, drag or long-press save (a light deterrent only)
+  function isPhoto(t) { return t && t.tagName === 'IMG' && /elda-photo/.test(t.getAttribute('src') || ''); }
+  app.addEventListener('contextmenu', function (e) { if (isPhoto(e.target)) e.preventDefault(); });
+  app.addEventListener('dragstart', function (e) { if (isPhoto(e.target)) e.preventDefault(); });
+  // header folder tabs: lift the tab of the section being read
+  function spy() {
+    var tabs = app.querySelectorAll('.tabnav a'); if (!tabs.length) return;
+    var best = 0, y = window.innerHeight * 0.35;
+    for (var i = 0; i < tabs.length; i++) {
+      var sec = document.getElementById(tabs[i].getAttribute('href').slice(1));
+      if (sec && sec.getBoundingClientRect().top <= y) best = i;
+    }
+    for (var k = 0; k < tabs.length; k++) tabs[k].className = k === best ? 'on' : '';
+  }
+  window.addEventListener('scroll', spy, { passive: true });
+  window.addEventListener('hashchange', jump);
+  window.addEventListener('resize', function () { if (pick() !== mode) mount(); else scale(); });
+  mount();
+})();
+</script>
+</body>
+</html>
